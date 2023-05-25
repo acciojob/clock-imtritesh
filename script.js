@@ -1,10 +1,10 @@
 //your JS code here. If required.
 function updateTimer() {
-      var timerElement = document.getElementById("timer");
-      var currentDate = new Date();
-      var time = currentDate.toLocaleTimeString();
-      var date = currentDate.toLocaleDateString();
-      var dateTime = date + ", " + time;
+      let timerElement = document.getElementById("timer");
+      let currentDate = new Date();
+      let time = currentDate.toLocaleTimeString();
+      let date = currentDate.toLocaleDateString();
+      let dateTime = date + ", " + time;
       timerElement.textContent = dateTime;
     }
 
